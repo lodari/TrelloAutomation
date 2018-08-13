@@ -1,0 +1,118 @@
+﻿2018-08-11T04:14:03.7440460+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-11T04:14:03.9370571+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-11T04:14:03.9370571+05:30;VSTestExecutionThread;Info;SpecRun: running tests in c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-11T04:14:03.9370571+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-11T04:14:18.0198625+05:30;Thread#13;Info;Discovering target: Default
+2018-08-11T04:14:18.0198625+05:30;Thread#13;Info;Discovering tests from assembly: c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloUIAutomation - 
+#7: Successful creation of Cards in Trello board - TestAssembly:KnabAssignment/Feature:TrelloUIAutomation/Scenario:Successful+creation+of+Cards+in+Trello+board
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: c:\users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given When user launches the web browser
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (18.4s)
+Thread#0:B:When User enters the Trello home page url
+Thread#0:T:done: TrelloUIAutomation.WhenUserEntersTheTrelloHomePageUrl() (7.8s)
+Thread#0:B:Then Trello home page should be loaded successfully
+Thread#0:T:done: TrelloUIAutomation.ThenTrelloHomePageShouldBeLoadedSuccessfully() (0.1s)
+Thread#0:B:Given When user is sucessfully logged into his Trello board
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"When user is sucessfully logged into his Trello board")]
+Thread#0:T:public void GivenWhenUserIsSucessfullyLoggedIntoHisTrelloBoard()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:And Navigate to the list under which new card needs to be created
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Navigate to the list under which new card needs to be created")]
+Thread#0:T:public void GivenNavigateToTheListUnderWhichNewCardNeedsToBeCreated()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:And Clicks on Add a card button, and enters the title of the card and
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Clicks on Add a card button, and enters the title of the card and")]
+Thread#0:T:public void GivenClicksOnAddACardButtonAndEntersTheTitleOfTheCardAnd()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:When User clicks on 'Add Card' button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [When(@"User clicks on '(.*)' button")]
+Thread#0:T:public void WhenUserClicksOnButton(string p0)
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then Card should be created successfully
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"Card should be created successfully")]
+Thread#0:T:public void ThenCardShouldBeCreatedSuccessfully()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"When user is sucessfully logged into his Trello board")]
+Thread#0:T:public void GivenWhenUserIsSucessfullyLoggedIntoHisTrelloBoard()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:        [Given(@"Navigate to the list under which new card needs to be created")]
+Thread#0:T:public void GivenNavigateToTheListUnderWhichNewCardNeedsToBeCreated()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:        [Given(@"Clicks on Add a card button, and enters the title of the card and")]
+Thread#0:T:public void GivenClicksOnAddACardButtonAndEntersTheTitleOfTheCardAnd()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:        [When(@"User clicks on '(.*)' button")]
+Thread#0:T:public void WhenUserClicksOnButton(string p0)
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:        [Then(@"Card should be created successfully")]
+Thread#0:T:public void ThenCardShouldBeCreatedSuccessfully()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #7/0 is finished on thread #0 as Pending within 48.0657492 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

@@ -1,0 +1,82 @@
+﻿2018-08-11T02:41:33.2925784+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-11T02:41:33.4175855+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-11T02:41:33.4185856+05:30;VSTestExecutionThread;Info;SpecRun: running tests in c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-11T02:41:33.4185856+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-11T02:41:47.5123917+05:30;Thread#13;Info;Discovering target: Default
+2018-08-11T02:41:47.5123917+05:30;Thread#13;Info;Discovering tests from assembly: c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloUIAutomation - 
+#4: Navigate to Trello home page - TestAssembly:KnabAssignment/Feature:TrelloUIAutomation/Scenario:Navigate+to+Trello+home+page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: c:\users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given When user launches the web browser
+Thread#0:T:Browser loaded successfully
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (38.1s)
+Thread#0:B:And Enters the Trello home page url
+Thread#0:T:Browser loaded successfully
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (24.2s)
+Thread#0:B:When user press Enter key
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [When(@"user press Enter key")]
+Thread#0:T:public void WhenUserPressEnterKey()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then Trello home page should be loaded successfully
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"Trello home page should be loaded successfully")]
+Thread#0:T:public void ThenTrelloHomePageShouldBeLoadedSuccessfully()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [When(@"user press Enter key")]
+Thread#0:T:public void WhenUserPressEnterKey()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:        [Then(@"Trello home page should be loaded successfully")]
+Thread#0:T:public void ThenTrelloHomePageShouldBeLoadedSuccessfully()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 62.8495948 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

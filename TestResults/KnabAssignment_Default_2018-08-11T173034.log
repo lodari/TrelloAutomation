@@ -1,0 +1,54 @@
+﻿2018-08-11T17:30:33.9226212+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-11T17:30:34.4906537+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-11T17:30:34.4906537+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-11T17:30:34.4916538+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-11T17:30:48.6834655+05:30;Thread#13;Info;Discovering target: Default
+2018-08-11T17:30:48.6844656+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloUIAutomation - 
+#4: Creation of board in Trello - TestAssembly:KnabAssignment/Feature:TrelloUIAutomation/Scenario:Creation+of+board+in+Trello
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given User has loaded the browser and navigated to Trello  home page
+Thread#0:T:done: TrelloUIAutomation.GivenUserHasLoadedTheBrowserAndNavigatedToTrelloHomePage() (37.6s)
+Thread#0:B:And logged in to Trello successfully
+Thread#0:T:done: TrelloUIAutomation.GivenLoggedInToTrelloSuccessfully() (2.9s)
+Thread#0:B:And Navigated to the right hand of the screen and clicks on + create board button
+Thread#0:T:done: TrelloUIAutomation.GivenNavigatedToTheRightHandOfTheScreenAndClicksOnCreateBoardButton() (15.5s)
+Thread#0:B:And Provide the board name in the board title section
+Thread#0:T:done: TrelloUIAutomation.GivenProvideTheBoardNameInTheBoardTitleSection() (0.4s)
+Thread#0:B:When User clicks on Create Board button
+Thread#0:T:done: TrelloUIAutomation.WhenUserClicksOnCreateBoardButton() (0.4s)
+Thread#0:B:Then Board should be created successfully
+Thread#0:T:done: TrelloUIAutomation.ThenBoardShouldBeCreatedSuccessfully() (1.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 58.622353 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

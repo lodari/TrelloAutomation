@@ -1,0 +1,91 @@
+﻿2018-08-11T03:14:11.9456069+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-11T03:14:12.0836148+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-11T03:14:12.0836148+05:30;VSTestExecutionThread;Info;SpecRun: running tests in c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-11T03:14:12.0846149+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-11T03:14:25.1603627+05:30;Thread#13;Info;Discovering target: Default
+2018-08-11T03:14:25.1613628+05:30;Thread#13;Info;Discovering tests from assembly: c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloUIAutomation - 
+#4: Navigate to Trello home page - TestAssembly:KnabAssignment/Feature:TrelloUIAutomation/Scenario:Navigate+to+Trello+home+page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: c:\users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given When user launches the web browser
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (16.0s)
+Thread#0:B:When User enters the Trello home page url
+Thread#0:T:done: TrelloUIAutomation.WhenUserEntersTheTrelloHomePageUrl() (28.0s)
+Thread#0:B:Then Trello home page should be loaded successfully
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 44.5915505 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given When user launches the web browser
+Thread#0:T:Exception while loading the Webdriver:OpenQA.Selenium.WebDriverException: Process unexpectedly closed with status 0
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+Thread#0:T:   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor(FirefoxOptions options)
+Thread#0:T:   at OpenQA.Selenium.Firefox.FirefoxDriver..ctor()
+Thread#0:T:   at KnabAssignment.Steps.TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() in c:\users\acer\source\repos\TrelloAutomation\KnabAssignment\Steps\TrelloUIAutomation.cs:line 46
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (30.0s)
+Thread#0:B:When User enters the Trello home page url
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:Then Trello home page should be loaded successfully
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 29.9707142 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given When user launches the web browser
+Thread#0:T:done: TrelloUIAutomation.GivenWhenUserLaunchesTheWebBrowser() (10.3s)
+Thread#0:B:When User enters the Trello home page url
+Thread#0:T:done: TrelloUIAutomation.WhenUserEntersTheTrelloHomePageUrl() (16.0s)
+Thread#0:B:Then Trello home page should be loaded successfully
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 26.3665081 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

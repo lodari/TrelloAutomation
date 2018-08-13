@@ -1,0 +1,92 @@
+﻿2018-08-12T15:53:59.3822824+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-12T15:53:59.8023064+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-12T15:53:59.8023064+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-12T15:53:59.8033065+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-12T15:54:10.2719052+05:30;Thread#13;Info;Discovering target: Default
+2018-08-12T15:54:10.2729053+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloAPIAutomation - 
+#6: Delete the trello board using API call - TestAssembly:KnabAssignment/Feature:TrelloAPIAutomation/Scenario:Delete+the+trello+board+using+API+call
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given User having valid BoardID, Access_Key, OAuth token & Resource url
+Thread#0:T:Delete End point url 1----------->1/boards/?key=&token=
+Thread#0:T:done: TrelloAPIAutomation.GivenUserHavingValidBoardIDAccess_KeyOAuthTokenResourceUrl() (18.7s)
+Thread#0:B:When User submit the API DELETE request using the above parameters
+Thread#0:T:Delete End point url 2----------->1/boards/?key=&token=
+Thread#0:T:error: Value cannot be null.
+Thread#0:T:Parameter name: baseUrl
+Thread#0:B:Then API should return success HTTP response code
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 34.4819722 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given User having valid BoardID, Access_Key, OAuth token & Resource url
+Thread#0:T:Delete End point url 1----------->1/boards/?key=&token=
+Thread#0:T:done: TrelloAPIAutomation.GivenUserHavingValidBoardIDAccess_KeyOAuthTokenResourceUrl() (2.2s)
+Thread#0:B:When User submit the API DELETE request using the above parameters
+Thread#0:T:Delete End point url 2----------->1/boards/?key=&token=
+Thread#0:T:error: Value cannot be null.
+Thread#0:T:Parameter name: baseUrl
+Thread#0:B:Then API should return success HTTP response code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 10.718613 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given User having valid BoardID, Access_Key, OAuth token & Resource url
+Thread#0:T:Delete End point url 1----------->1/boards/?key=&token=
+Thread#0:T:done: TrelloAPIAutomation.GivenUserHavingValidBoardIDAccess_KeyOAuthTokenResourceUrl() (1.6s)
+Thread#0:B:When User submit the API DELETE request using the above parameters
+Thread#0:T:Delete End point url 2----------->1/boards/?key=&token=
+Thread#0:T:error: Value cannot be null.
+Thread#0:T:Parameter name: baseUrl
+Thread#0:B:Then API should return success HTTP response code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 5.2152983 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

@@ -1,0 +1,53 @@
+﻿2018-08-12T06:07:12.6405536+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-12T06:07:12.8315645+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-12T06:07:12.8315645+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-12T06:07:12.8315645+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-12T06:07:24.9472575+05:30;Thread#13;Info;Discovering target: Default
+2018-08-12T06:07:24.9482575+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloAPIAutomation - 
+#5: Create and verify the trello board using API call - TestAssembly:KnabAssignment/Feature:TrelloAPIAutomation/Scenario:Create+and+verify+the+trello+board+using+API+call
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given User having valid Access_Key, OAuth token & Resource url
+Thread#0:T:done: TrelloAPIAutomation.GivenUserHavingValidAccess_KeyOAuthTokenResourceUrl() (0.0s)
+Thread#0:B:And By using them user creates a board on Trello
+Thread#0:T:---------------5b6f814fd75107412eff84b2
+Thread#0:T:done: TrelloAPIAutomation.GivenByUsingThemUserCreatesABoardOnTrello() (26.8s)
+Thread#0:B:When User submits the API request to verify newly created board
+Thread#0:T:pending: TrelloAPIAutomation.WhenUserSubmitsTheAPIRequestToVerifyNewlyCreatedBoard()
+Thread#0:B:Then API should return success response message along with the board name
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  TrelloAPIAutomation.WhenUserSubmitsTheAPIRequestToVerifyNewlyCreatedBoard()
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Pending within 29.7927041 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

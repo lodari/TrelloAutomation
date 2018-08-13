@@ -1,0 +1,59 @@
+﻿2018-08-12T16:58:21.6011887+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-12T16:58:21.8302018+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-12T16:58:21.8302018+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+2018-08-12T16:58:21.8312018+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-08-12T16:58:36.3020295+05:30;Thread#13;Info;Discovering target: Default
+2018-08-12T16:58:36.3020295+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\acer\source\repos\TrelloAutomation\KnabAssignment\bin\Debug\KnabAssignment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: KnabAssignment/Default - 
+#1: Default - 
+#2: KnabAssignment - 
+#3: TrelloAPIAutomation - 
+#4: Verify the completeness of existing Trello board using API call - TestAssembly:KnabAssignment/Feature:TrelloAPIAutomation/Scenario:Verify+the+completeness+of+existing+Trello+board+using+API+call
+#5: Create and verify the trello board using API call - TestAssembly:KnabAssignment/Feature:TrelloAPIAutomation/Scenario:Create+and+verify+the+trello+board+using+API+call
+#6: Delete the trello board using API call - TestAssembly:KnabAssignment/Feature:TrelloAPIAutomation/Scenario:Delete+the+trello+board+using+API+call
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for KnabAssignment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\acer\source\repos\TrelloAutomation\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as InitializationFailed within 0.5640323 seconds
+Thread#0: Test #5/0 is started on thread #0
+Cancelling because configured number of failures reached
+Thread#0: Test #5/0 is finished on thread #0 as InitializationFailed within 0.0420024 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#-1:Scheduler: considering testitem #6 for thread -1
+Thread#-1:Scheduler: using testitem #6 for thread -1
+Thread#-1:Scheduler: Test #6 is scheduled for thread
+Thread#-1: Test #6/0 is started on thread #-1
+Thread#-1: Test #6/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 3
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 2
